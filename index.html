@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Survey Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="bg">
+    <header>
+        <h1><span>net</span>flix</h1>
+        <h3>Thank you for signing up at Netflix. Tell us more about yourself.</h3>
+    </header>
+    <main>
+        <form id="form" action="get">
+            <div class="name">
+                <label for="first-name">First Name</label><br>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter Your Name" required>
+            </div><br>
+            <div class="age">
+                <label for="age">Age</labellass=><br>
+                <input type="number" name="age" id="age" placeholder="Age" required>
+            </div><br>
+            <div class="e-mail">
+                <label for="mail">E-mail</label><br>
+                <input type="e-mail" name="mail" id="mail" placeholder="example@netflix.com" required min="12" max="99">    
+            </div><br>
+            <div class="content-type">
+                <label for="content-type">Content Type</label><br>
+                <select name="content" id="content-type">
+                    <option value="Movie">Movie</option>
+                    <option value="Series">Series</option>
+                    <option value="Documentary">Documentary</option>
+                </select>
+            </div>
+<br>
+            <div class="movie-type">
+                <label for="movie-type">Select Movie Type</label><br><br>
+                
+                <label for="movie-type"></label>
+                <input type="checkbox" name="movie-type" value="Action"> Action<br>
+
+                <label for="movie-type"></label>
+                <input type="checkbox" name="movie-type" value="Comedy"> Comedy<br>
+
+                <label for="movie-type"></label>
+                <input type="checkbox" name="movie-type" value="Horror"> Horror<br>
+
+                <label for="movie-type"></label>
+                <input type="checkbox" name="movie-type" value="Romantic"> Romantic<br>
+
+                <label for="movie-type"></label>
+                <input type="checkbox" name="movie-type" value="Fantasy"> Fantasy<br>
+
+
+            </div>
+<br>
+            <div class="gender-type">
+                <label class="label-gender" for="Gender">Gender</label><br>
+            <br>    
+               <label>
+                   <input type="radio" name="gender" value="female">
+                   Female
+               </label>
+            <br>
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+            <br>
+                <label>
+                    <input type="radio" name="gender" value="other">
+                    Other
+                </label>
+                
+            </div>
+<br>
+            <div class="textarea">
+                <label class="label-form-textarea" for="textarea">Feedback:</label><br><br>
+                <textarea id="feedback" name="textarea" rows="13" cols="80" style="resize: none;"></textarea>
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Send" id="submit">
+            </div>
+        </form>
+    </main>
+    <br><br>
+    <footer>
+        <h4 class="my-social-accounts">My Social Media Accounts</h4>
+        <div class="social-media">
+            <a class="github" href="https://github.com/Mecoloji" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="github-img"></a>
+
+            <a class="linkedin" href="https://www.linkedin.com/in/mehmet-can-sa%C4%9F%C4%B1ro%C4%9Flu-135651233/" target="_blank"><img src="https://icon-library.com/images/white-linkedin-icon-png/white-linkedin-icon-png-16.jpg" alt="linkedin-img"> </a>
+
+            <a class="codepen" href="https://codepen.io/mecoloji" target="_blank"><img src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png" alt="codepen-img"></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+</div>
+    
+</body>
+</html>
